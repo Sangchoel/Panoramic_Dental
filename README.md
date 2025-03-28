@@ -43,5 +43,26 @@ EfficientNet-B0을 백본으로 사용하는 UNet++ 기반
 > Colab 환경 기준
 
 1. 필요한 라이브러리 설치  
-```bash
 !pip install segmentation_models_pytorch
+# PyTorch와 TorchVision 설치 (Colab에 이미 설치된 경우가 많음)
+!pip install torch torchvision
+
+# OpenCV 설치
+!pip install opencv-python-headless
+
+# Matplotlib 설치
+!pip install matplotlib
+
+# Albumentations 설치 (선택 사항, 데이터 증강 시 유용)
+!pip install albumentations
+
+
+!pip install --upgrade sympy
+# PyTorch 및 TorchVision 재설치
+!pip install --upgrade torch torchvision
+
+# sympy 최신 버전 설치
+!pip install --upgrade sympy
+
+!pip install tensorboard
+     
